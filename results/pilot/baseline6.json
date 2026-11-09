@@ -1,0 +1,1638 @@
+{
+  "version": "round-budget-1.0",
+  "mock": false,
+  "config": {
+    "mock": false,
+    "per_difficulty": 3,
+    "runs": 1,
+    "max_rounds": 6,
+    "output": "/content/when2tool-round-budget/outputs/pilot_20261109_085946_908418/baseline6.json",
+    "model": "deepseek-flash",
+    "temperature": 1,
+    "max_tokens": 1024,
+    "thinking": "disabled",
+    "sample_seed": 42,
+    "python": "3.13.18"
+  },
+  "usage": {
+    "calls": 21,
+    "attempts": 21,
+    "input_tokens": 8857,
+    "output_tokens": 625,
+    "cached_input_tokens": 4608
+  },
+  "api_records": [
+    {
+      "response_id": "93edf092-05d7-483c-86be-870d4d69420a",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 318,
+        "completion_tokens": 6,
+        "total_tokens": 324,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 190
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "25cf676b-ba30-4fca-a273-65dbd55b50c8",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 318,
+        "completion_tokens": 6,
+        "total_tokens": 324,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 190
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "ef12c157-ca8d-48b5-af18-cf51d054a072",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 318,
+        "completion_tokens": 6,
+        "total_tokens": 324,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 190
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "e2a1672c-2db9-4f15-8a37-7bb434799104",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 325,
+        "completion_tokens": 35,
+        "total_tokens": 360,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 197
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "bfef9ee7-b495-4520-90ff-51dd1a3aaf56",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 398,
+        "completion_tokens": 7,
+        "total_tokens": 405,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 142
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "10bfb8d8-1912-4edf-8ea6-e0f8782b8a6c",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 326,
+        "completion_tokens": 104,
+        "total_tokens": 430,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 198
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "f672088f-cbaf-498d-891b-20546480581f",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 463,
+        "completion_tokens": 7,
+        "total_tokens": 470,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 207
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "61a2a453-3b41-48af-b27b-75c06c76ac32",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 323,
+        "completion_tokens": 25,
+        "total_tokens": 348,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 195
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "07f66234-6194-4661-a4b9-3bfb567312a2",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 387,
+        "completion_tokens": 7,
+        "total_tokens": 394,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 259
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "36756ad2-ffc2-408b-aad9-ebffeb5d4b2a",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 337,
+        "completion_tokens": 47,
+        "total_tokens": 384,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 209
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "1b01733c-ff48-441d-8837-454a0bde3dba",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 410,
+        "completion_tokens": 35,
+        "total_tokens": 445,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 154
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "cfdacae1-c46d-459a-bc46-1b9a0b0736f7",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 489,
+        "completion_tokens": 37,
+        "total_tokens": 526,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 233
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "f0bb5318-24de-44a7-bb32-b0d30f7999e6",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 570,
+        "completion_tokens": 33,
+        "total_tokens": 603,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 186
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "265e0b27-6ebc-4f12-8ae1-598886cf4800",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 642,
+        "completion_tokens": 44,
+        "total_tokens": 686,
+        "prompt_tokens_details": {
+          "cached_tokens": 384
+        },
+        "prompt_cache_hit_tokens": 384,
+        "prompt_cache_miss_tokens": 258
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "6dd2de6a-6fbc-4785-a8c9-b0e71b14cf50",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 739,
+        "completion_tokens": 13,
+        "total_tokens": 752,
+        "prompt_tokens_details": {
+          "cached_tokens": 512
+        },
+        "prompt_cache_hit_tokens": 512,
+        "prompt_cache_miss_tokens": 227
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "984e3355-4d61-44e1-83c6-8e530c4a2754",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 334,
+        "completion_tokens": 46,
+        "total_tokens": 380,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 206
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "c37accd1-77a9-4d07-b8b1-219342b40b21",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 406,
+        "completion_tokens": 45,
+        "total_tokens": 451,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 150
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "110205b7-f82b-4e1c-997a-b2066c4de63e",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 499,
+        "completion_tokens": 8,
+        "total_tokens": 507,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 243
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "9abc8e3e-0134-4010-92c8-8f678a7e5138",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 331,
+        "completion_tokens": 59,
+        "total_tokens": 390,
+        "prompt_tokens_details": {
+          "cached_tokens": 128
+        },
+        "prompt_cache_hit_tokens": 128,
+        "prompt_cache_miss_tokens": 203
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "f5adac0d-b5f9-4d11-867d-19316e19a821",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 416,
+        "completion_tokens": 42,
+        "total_tokens": 458,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 160
+      },
+      "finish_reason": "stop"
+    },
+    {
+      "response_id": "e09c6e39-56d0-4cfe-8ac4-1ceb3f8ee79d",
+      "model": "deepseek-flash",
+      "usage": {
+        "prompt_tokens": 508,
+        "completion_tokens": 13,
+        "total_tokens": 521,
+        "prompt_tokens_details": {
+          "cached_tokens": 256
+        },
+        "prompt_cache_hit_tokens": 256,
+        "prompt_cache_miss_tokens": 252
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "seconds": 23.50053841299996,
+  "results": [
+    {
+      "id": 1060,
+      "difficulty": "easy",
+      "multi_step": false,
+      "instruction": "Answer with only the number: 36+30",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "66"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 1,
+      "final_response": "\\boxed{66}",
+      "tool_calls": 0,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Answer with only the number: 36+30\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{66}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{66}",
+            "raw_text": "\\boxed{66}"
+          },
+          "model_raw_output": "\\boxed{66}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{66}",
+            "raw_text": "\\boxed{66}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 1
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 0.8434931739999456,
+      "api_usage": {
+        "calls": 1,
+        "attempts": 1,
+        "input_tokens": 318,
+        "output_tokens": 6,
+        "cached_input_tokens": 128
+      }
+    },
+    {
+      "id": 1027,
+      "difficulty": "easy",
+      "multi_step": false,
+      "instruction": "Answer with only the number: 6*11",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "66"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 1,
+      "final_response": "\\boxed{66}",
+      "tool_calls": 0,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Answer with only the number: 6*11\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{66}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{66}",
+            "raw_text": "\\boxed{66}"
+          },
+          "model_raw_output": "\\boxed{66}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{66}",
+            "raw_text": "\\boxed{66}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 1
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 0.8243320600000743,
+      "api_usage": {
+        "calls": 1,
+        "attempts": 1,
+        "input_tokens": 318,
+        "output_tokens": 6,
+        "cached_input_tokens": 128
+      }
+    },
+    {
+      "id": 1021,
+      "difficulty": "easy",
+      "multi_step": false,
+      "instruction": "Answer with only the number: 33-10",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "23"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 1,
+      "final_response": "\\boxed{23}",
+      "tool_calls": 0,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Answer with only the number: 33-10\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{23}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{23}",
+            "raw_text": "\\boxed{23}"
+          },
+          "model_raw_output": "\\boxed{23}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{23}",
+            "raw_text": "\\boxed{23}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 1
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 1.1157052759999715,
+      "api_usage": {
+        "calls": 1,
+        "attempts": 1,
+        "input_tokens": 318,
+        "output_tokens": 6,
+        "cached_input_tokens": 128
+      }
+    },
+    {
+      "id": 1167,
+      "difficulty": "medium",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: (883//25)+(100*76)-37",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "7598"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 2,
+      "final_response": "\\boxed{7598}",
+      "tool_calls": 1,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: (883//25)+(100*76)-37\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(883//25)+(100*76)-37\"}}\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 7598, \"expression\": \"(883//25)+(100*76)-37\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{7598}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "(883//25)+(100*76)-37"
+            },
+            "raw_text": "<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(883//25)+(100*76)-37\"}}\n</tool_call>"
+          },
+          "model_raw_output": "<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(883//25)+(100*76)-37\"}}\n</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 7598,
+            "expression": "(883//25)+(100*76)-37"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{7598}",
+            "raw_text": "\\boxed{7598}"
+          },
+          "model_raw_output": "\\boxed{7598}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "(883//25)+(100*76)-37"
+            },
+            "raw_text": "<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(883//25)+(100*76)-37\"}}\n</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 7598,
+            "expression": "(883//25)+(100*76)-37"
+          },
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{7598}",
+            "raw_text": "\\boxed{7598}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 2
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 2.3568692519999104,
+      "api_usage": {
+        "calls": 2,
+        "attempts": 2,
+        "input_tokens": 723,
+        "output_tokens": 42,
+        "cached_input_tokens": 384
+      }
+    },
+    {
+      "id": 1137,
+      "difficulty": "medium",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: (3025//30)+(258*115)-216",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "29554"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 2,
+      "final_response": "\\boxed{29554}",
+      "tool_calls": 0,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: (3025//30)+(258*115)-216\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}"
+        },
+        {
+          "role": "user",
+          "content": "Final answer rejected: reasoning is not allowed in no_reasoning mode. Retry with final answer in \\boxed{...} only."
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{29554}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}",
+            "raw_text": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}"
+          },
+          "model_raw_output": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}",
+          "tool_result": null,
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{29554}",
+            "raw_text": "\\boxed{29554}"
+          },
+          "model_raw_output": "\\boxed{29554}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "content",
+            "content": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}",
+            "raw_text": "We need compute exact.\n\n3025//30 = 100 (since 30*100=3000, remainder25)\n258*115 = 258*(100+15)=25800+3870=29670\nThen 100 + 29670 - 216 = 29770 - 216 = 29554.\n\nNeed final only number in boxed.\n\nLet's verify maybe no tool needed. The task says use tool helpful but can not. We'll final.\n\n\\boxed{29554}"
+          },
+          "tool_result": null,
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{29554}",
+            "raw_text": "\\boxed{29554}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 2
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 2.6818388439999126,
+      "api_usage": {
+        "calls": 2,
+        "attempts": 2,
+        "input_tokens": 789,
+        "output_tokens": 111,
+        "cached_input_tokens": 384
+      }
+    },
+    {
+      "id": 1135,
+      "difficulty": "medium",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: (502*59)-171+140",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "29587"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 2,
+      "final_response": "\\boxed{29587}",
+      "tool_calls": 0,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: (502*59)-171+140\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "Continue. You must do exactly one of these next (no reasoning text):\n1) Provide one valid tool call.\n2) Provide final answer in \\boxed{...}."
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{29587}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>",
+            "raw_text": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>"
+          },
+          "model_raw_output": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>",
+          "tool_result": null,
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{29587}",
+            "raw_text": "\\boxed{29587}"
+          },
+          "model_raw_output": "\\boxed{29587}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "content",
+            "content": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>",
+            "raw_text": "<tool_call>evaluate_expression\n{\"expression\":\"(502*59)-171+140\"}</tool_call>"
+          },
+          "tool_result": null,
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{29587}",
+            "raw_text": "\\boxed{29587}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 1,
+      "policy_rejections": 0,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 2
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 1.7120096250000643,
+      "api_usage": {
+        "calls": 2,
+        "attempts": 2,
+        "input_tokens": 710,
+        "output_tokens": 32,
+        "cached_input_tokens": 256
+      }
+    },
+    {
+      "id": 1234,
+      "difficulty": "hard",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: ((26419166880*672359866283)+(8370299*2110137)-856256947)",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "17763187528406683671056"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 6,
+      "final_response": "\\boxed{17763187528406683671056}",
+      "tool_calls": 3,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: ((26419166880*672359866283)+(8370299*2110137)-856256947)\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "I'll compute this exactly step by step using the calculator tools.\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "Tool call rejected: reasoning is not allowed in no_reasoning mode. Retry with tool call only."
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 17763187510745062307040, \"expression\": \"26419166880*672359866283\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "Continue. You must do exactly one of these next (no reasoning text):\n1) Provide one valid tool call.\n2) Provide final answer in \\boxed{...}."
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 17662477620963, \"expression\": \"8370299*2110137\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"17763187510745062307040+17662477620963-856256947\"}}</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 17763187528406683671056, \"expression\": \"17763187510745062307040+17662477620963-856256947\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{17763187528406683671056}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "26419166880*672359866283"
+            },
+            "raw_text": "I'll compute this exactly step by step using the calculator tools.\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+          },
+          "model_raw_output": "I'll compute this exactly step by step using the calculator tools.\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>",
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "26419166880*672359866283"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 17763187510745062307040,
+            "expression": "26419166880*672359866283"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>",
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>",
+          "tool_result": null,
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "8370299*2110137"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 17662477620963,
+            "expression": "8370299*2110137"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "17763187510745062307040+17662477620963-856256947"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"17763187510745062307040+17662477620963-856256947\"}}</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"17763187510745062307040+17662477620963-856256947\"}}</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 17763187528406683671056,
+            "expression": "17763187510745062307040+17662477620963-856256947"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{17763187528406683671056}",
+            "raw_text": "\\boxed{17763187528406683671056}"
+          },
+          "model_raw_output": "\\boxed{17763187528406683671056}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "26419166880*672359866283"
+            },
+            "raw_text": "I'll compute this exactly step by step using the calculator tools.\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+          },
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "26419166880*672359866283"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"26419166880*672359866283\"}}</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 17763187510745062307040,
+            "expression": "26419166880*672359866283"
+          },
+          "done": false
+        },
+        {
+          "round": 3,
+          "parsed": {
+            "type": "content",
+            "content": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>",
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</｜｜DSML｜｜ parameter>\n</tool_call>"
+          },
+          "tool_result": null,
+          "done": false
+        },
+        {
+          "round": 4,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "8370299*2110137"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"8370299*2110137\"}}</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 17662477620963,
+            "expression": "8370299*2110137"
+          },
+          "done": false
+        },
+        {
+          "round": 5,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "17763187510745062307040+17662477620963-856256947"
+            },
+            "raw_text": "\n\n<tool_call>{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"17763187510745062307040+17662477620963-856256947\"}}</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 17763187528406683671056,
+            "expression": "17763187510745062307040+17662477620963-856256947"
+          },
+          "done": false
+        },
+        {
+          "round": 6,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{17763187528406683671056}",
+            "raw_text": "\\boxed{17763187528406683671056}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 1,
+      "policy_rejections": 1,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": false,
+        "strict_correct": false,
+        "done": false,
+        "rounds": 3
+      },
+      "late_rescue": true,
+      "run": 0,
+      "seconds": 5.765981801999942,
+      "api_usage": {
+        "calls": 6,
+        "attempts": 6,
+        "input_tokens": 3187,
+        "output_tokens": 209,
+        "cached_input_tokens": 1920
+      }
+    },
+    {
+      "id": 1228,
+      "difficulty": "hard",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: ((752137513116+54158594007)*8719447650)%46619044",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "26444802"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 3,
+      "final_response": "\\boxed{26444802}",
+      "tool_calls": 1,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: ((752137513116+54158594007)*8719447650)%46619044\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "I'll compute this step by step using the calculator.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"752137513116+54158594007\"}}\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "Tool call rejected: reasoning is not allowed in no_reasoning mode. Retry with tool call only."
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(752137513116+54158594007)*8719447650%46619044\"}}\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 26444802, \"expression\": \"(752137513116+54158594007)*8719447650%46619044\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{26444802}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "752137513116+54158594007"
+            },
+            "raw_text": "I'll compute this step by step using the calculator.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"752137513116+54158594007\"}}\n</tool_call>"
+          },
+          "model_raw_output": "I'll compute this step by step using the calculator.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"752137513116+54158594007\"}}\n</tool_call>",
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "(752137513116+54158594007)*8719447650%46619044"
+            },
+            "raw_text": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(752137513116+54158594007)*8719447650%46619044\"}}\n</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(752137513116+54158594007)*8719447650%46619044\"}}\n</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 26444802,
+            "expression": "(752137513116+54158594007)*8719447650%46619044"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{26444802}",
+            "raw_text": "\\boxed{26444802}"
+          },
+          "model_raw_output": "\\boxed{26444802}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "752137513116+54158594007"
+            },
+            "raw_text": "I'll compute this step by step using the calculator.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"752137513116+54158594007\"}}\n</tool_call>"
+          },
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "(752137513116+54158594007)*8719447650%46619044"
+            },
+            "raw_text": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"(752137513116+54158594007)*8719447650%46619044\"}}\n</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 26444802,
+            "expression": "(752137513116+54158594007)*8719447650%46619044"
+          },
+          "done": false
+        },
+        {
+          "round": 3,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{26444802}",
+            "raw_text": "\\boxed{26444802}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 1,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 3
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 3.9907708570000295,
+      "api_usage": {
+        "calls": 3,
+        "attempts": 3,
+        "input_tokens": 1239,
+        "output_tokens": 99,
+        "cached_input_tokens": 640
+      }
+    },
+    {
+      "id": 1267,
+      "difficulty": "hard",
+      "multi_step": false,
+      "instruction": "Compute exactly and return only number: ((476411560114*899288681908)//7)-953670265",
+      "environments": [
+        {
+          "name": "CalculatorEnv",
+          "tools": [
+            "evaluate_expression",
+            "get_last_result",
+            "clear_last_result"
+          ],
+          "parameters": {}
+        }
+      ],
+      "expected": {
+        "answer": "61204503420092327217951"
+      },
+      "tags": [
+        "calculator",
+        "single_round"
+      ],
+      "rounds": 3,
+      "final_response": "\\boxed{61204503420092327217951}",
+      "tool_calls": 1,
+      "generation_tokens": 0,
+      "prefill_tokens": 0,
+      "token_cost": 0.0,
+      "prompt_mode": "current",
+      "reasoning_mode": "no_reasoning",
+      "output": [
+        {
+          "role": "system",
+          "content": "You can use tools when helpful. If you call a tool, emit exactly one tool call wrapped in <tool_call>...</tool_call>, with exactly one JSON object inside: {\"name\": \"tool_name\", \"arguments\": {...}}. Do not call multiple tools at once. Tool arguments must strictly match each tool schema; do not invent wrapper fields. When you are done, provide the final answer in LaTeX boxed format: \\boxed{...}."
+        },
+        {
+          "role": "user",
+          "content": "Compute exactly and return only number: ((476411560114*899288681908)//7)-953670265\n\nResponse policy (required every turn):\n1) You can choose to use a tool or not in this task.\n2) Provide final answer in \\boxed{...} if you think the task is complete."
+        },
+        {
+          "role": "assistant",
+          "content": "I'll compute this step by step using the tools.\n\nFirst, let me calculate the product of the two large numbers.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908\"}}\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "Tool call rejected: reasoning is not allowed in no_reasoning mode. Retry with tool call only."
+        },
+        {
+          "role": "assistant",
+          "content": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908//7-953670265\"}}\n</tool_call>"
+        },
+        {
+          "role": "user",
+          "content": "<tool_response>\n{\"success\": true, \"result\": 61204503420092327217951, \"expression\": \"476411560114*899288681908//7-953670265\"}\n</tool_response>"
+        },
+        {
+          "role": "assistant",
+          "content": "\\boxed{61204503420092327217951}"
+        }
+      ],
+      "trace": [
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "476411560114*899288681908"
+            },
+            "raw_text": "I'll compute this step by step using the tools.\n\nFirst, let me calculate the product of the two large numbers.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908\"}}\n</tool_call>"
+          },
+          "model_raw_output": "I'll compute this step by step using the tools.\n\nFirst, let me calculate the product of the two large numbers.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908\"}}\n</tool_call>",
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "476411560114*899288681908//7-953670265"
+            },
+            "raw_text": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908//7-953670265\"}}\n</tool_call>"
+          },
+          "model_raw_output": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908//7-953670265\"}}\n</tool_call>",
+          "tool_result": {
+            "success": true,
+            "result": 61204503420092327217951,
+            "expression": "476411560114*899288681908//7-953670265"
+          },
+          "state_done_after_step": false
+        },
+        {
+          "parsed_output": {
+            "type": "content",
+            "content": "\\boxed{61204503420092327217951}",
+            "raw_text": "\\boxed{61204503420092327217951}"
+          },
+          "model_raw_output": "\\boxed{61204503420092327217951}",
+          "tool_result": null,
+          "state_done_after_step": true
+        }
+      ],
+      "events": [
+        {
+          "round": 1,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "476411560114*899288681908"
+            },
+            "raw_text": "I'll compute this step by step using the tools.\n\nFirst, let me calculate the product of the two large numbers.\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908\"}}\n</tool_call>"
+          },
+          "tool_result": {
+            "success": false,
+            "message": "Tool call rejected: reasoning is not allowed in no_reasoning mode."
+          },
+          "done": false
+        },
+        {
+          "round": 2,
+          "parsed": {
+            "type": "tool",
+            "tool_name": "evaluate_expression",
+            "arguments": {
+              "expression": "476411560114*899288681908//7-953670265"
+            },
+            "raw_text": "\n\n<tool_call>\n{\"name\": \"evaluate_expression\", \"arguments\": {\"expression\": \"476411560114*899288681908//7-953670265\"}}\n</tool_call>"
+          },
+          "tool_result": {
+            "success": true,
+            "result": 61204503420092327217951,
+            "expression": "476411560114*899288681908//7-953670265"
+          },
+          "done": false
+        },
+        {
+          "round": 3,
+          "parsed": {
+            "type": "content",
+            "content": "\\boxed{61204503420092327217951}",
+            "raw_text": "\\boxed{61204503420092327217951}"
+          },
+          "tool_result": null,
+          "done": true
+        }
+      ],
+      "parse_failures": 0,
+      "policy_rejections": 1,
+      "final_correct": true,
+      "strict_correct": true,
+      "done": true,
+      "budget_exhausted": false,
+      "round_limit": 6,
+      "prefix3": {
+        "final_correct": true,
+        "strict_correct": true,
+        "done": true,
+        "rounds": 3
+      },
+      "late_rescue": false,
+      "run": 0,
+      "seconds": 4.202926858000069,
+      "api_usage": {
+        "calls": 3,
+        "attempts": 3,
+        "input_tokens": 1255,
+        "output_tokens": 114,
+        "cached_input_tokens": 640
+      }
+    }
+  ],
+  "error": null
+}
